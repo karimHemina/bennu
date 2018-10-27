@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level1_1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="299dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/titlebar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="LEVEL 1"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="    what is bennu  ?"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/choice1"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="233dp"
+        android:src="@drawable/choices"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignTop="@+id/choice1"
+        android:layout_centerHorizontal="true"
+        android:text="black hole"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/choice2"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/choices"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/choice2"
+        android:layout_centerHorizontal="true"
+        android:text="Asteroid"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/choice3"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:src="@drawable/choices"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignTop="@+id/choice3"
+        android:layout_centerHorizontal="true"
+        android:text="Star"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/choice4"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/choices"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignTop="@+id/choice4"
+        android:layout_centerHorizontal="true"
+        android:text="Galaxy"
+        android:textSize="35sp" />
+
+</RelativeLayout>
